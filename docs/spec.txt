@@ -1,0 +1,28 @@
+registers: A B C D E F G H
+data array: 64 cells of type int.
+1 stack.
+
+
+
+push[register]  // push from reg to st
+pop[register]  // pop from stack to reg
+clear[] //empties it
+peek[4, register] // looks at the 4th item from bottom of stack and puts it into reg
+
+set<register>[5]  //sets registers value
+clear<register>
+
+decr<register>[4] // decrement by 4
+incr<register>[4] // increment by 4
+
+rprint<register>   // prints raw value in register.
+print<register>   // prints register value as ascii equivalent.
+input<register>   // unbuffered getch, puts ascii value in register.
+
+copy<dataindex>[register] // take value in data array at index and copy it to register. (kinda like ram)
+
+label<labelname>
+goto<labelname>
+
+jumpifzero<register>[label]
+jumpifequal<register, register>[label]
