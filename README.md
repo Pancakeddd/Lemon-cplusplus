@@ -1,12 +1,14 @@
 # LemonLang
 
 
-## A C++ based interpreter for LemonLang.
+A C++ based interpreter for LemonLang.
 
-Made by Pancakes
+Proposed by Pancakes
 
-Collaborators:
+# Collaborators:
+
 
 Jackojc
+
 
 TheScripterGeek
